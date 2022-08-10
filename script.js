@@ -12,7 +12,7 @@ function showPassword() {
     const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
     password.setAttribute('type', type);
    
-};
+}
 
 passwordForm.addEventListener('click', function(event) {
     if (event.target.closest('.icon-password')) {
